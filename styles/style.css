@@ -1,6 +1,5 @@
 tr {
-    width: 75%;
-    
+    width: 75%;   
 }
 
 .success {
@@ -13,18 +12,16 @@ tr {
     color: white;
 }
 
+.alert {
+    color: red;
+}
+
 h2 {
     color:darkcyan;
     text-align: left;
 }
 
 p {
-    display: inline-block;
+    /*display: inline-block;*/
     width: 100%;
-}
-
-@media (min-width: 100px) {
-    .container{
-        max-width: 80%;
-    }
 }
